@@ -1,0 +1,32 @@
+# Node & Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Python & ML
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+*.joblib
+*.pkl
+
+# Databases & MLflow Logs
+data/*.duckdb.wal
+mlruns/
+
+# Workflows (ignored)
+.github/
+
+# Environment & IDE
+.env
+.env.local
+.vscode/
+.idea/
+.DS_Store
